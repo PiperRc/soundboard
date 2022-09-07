@@ -1,0 +1,27 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+html{
+	font-size:62.5%;
+}
+
+main{
+	border:1px solid green;
+	margin:0 auto;
+	width:90%;
+}
+
+.buttons{
+width:100%;
+}
+
+.buttons img{
+	width:50%;
+	max-width:300px;
+	display:block;
+	margin:0 auto;
+}
