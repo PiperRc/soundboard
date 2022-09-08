@@ -1,27 +1,52 @@
 *{
 	margin:0;
 	padding:0;
-	box-sizing:border-box;
+	box-sizing: border-box;
 }
 
-
 html{
-	font-size:62.5%;
+	font-size: 62.5%;
 }
 
 main{
-	border:1px solid green;
-	margin:0 auto;
+	border: 1px solid green;
 	width:90%;
+	margin:0 auto;
 }
 
 .buttons{
-width:100%;
+	width:100%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+
 }
 
-.buttons img{
-	width:50%;
-	max-width:300px;
-	display:block;
-	margin:0 auto;
+
+
+.buttons div{
+	
+	width:15rem;
+	height: 15rem;
+	border-radius: 50%;
+	margin-bottom: 5rem;
+	 box-shadow: 0 15px #999;
+}
+
+
+.one{
+	background-color: pink;
+}
+.two{
+	background-color: red;
+}
+
+.three{
+	background-color: purple;
+}
+
+ .buttons div:active {
+ 
+  box-shadow: 0 11px #666;
+  transform: translateY(4px);
 }
